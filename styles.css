@@ -33,8 +33,11 @@ header h2 {
 .navbar {
     background-color: #901CAD;
 }
-.tab-content {
-    border: 1px sold #DDD;
-    border-top: none;
-    padding: 10px;
+/* carousel stylings for border around carousel and half-transparent background (easier reading) */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
 }
